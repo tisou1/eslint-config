@@ -43,8 +43,6 @@ export default [
       '@stylistic/space-infix-ops': ['warn'],
       // 关键字周围要有空格
       '@stylistic/keyword-spacing': ['warn'],
-      // 对象键值对中冒号前无空格，冒号后有空格
-      '@stylistic/key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
       // 对象花括号内部两侧总是有空格
       '@stylistic/object-curly-spacing': ['warn', 'always'],
       // 数组括号内部两侧不允许有空格
